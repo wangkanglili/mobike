@@ -1,0 +1,106 @@
+html,body, .swiper-container{width: 100%;height: 100%}
+.swiper-slide{background-repeat: no-repeat;background-position: 51% 44%;background-size: cover}
+/*Ipad没有版心 全屏 1080*/
+@media screen and (max-width: 1080px) {
+    .container-md{width: 100%;box-sizing: border-box}
+    .hero-promo{width: 50%}
+}
+/*phone*/
+@media screen and (max-width:640px ) {
+    .hero-promo{width: 100%;}
+    .meta-link{width: 100%;}
+}
+/*版心*/
+.wrap{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.container-md{
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 1040px;
+    height: 100%;
+
+}
+.wrap .header,.wrap .title,.wrap .news{
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.wrap .header{
+    top:0;
+    height: 80px;
+}
+.header-right li{
+    float: right;
+}
+.header-right li a{
+    font-size: 16px;
+    color: #fff;
+    padding: .5em 20px;
+   
+}
+.wrap .title{
+    top: 50%;
+    height: 146px;
+   margin-top: -73px;
+}
+.wrap .news{
+    bottom: 0;
+    height: 420px;
+}
+.hero-promos{
+    margin-left: -2px;
+}
+.title h1{
+    font-size: 280%;
+    color: #fff;
+}
+
+.hero-promo{
+    width: 25%;
+    float: left;
+    border-left: 2px solid #fff;
+    box-sizing: border-box;
+    padding-top:2px ;
+}
+.hero-promo a{
+    display: block;
+    width: 100%;
+    height: 240px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+.meta-links{padding:45px 0;}
+.meta-link{
+    float: left;
+    width: 33.33%;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-position: 0px 15% ;
+    background-size: 15%;
+    margin-right: 10px;
+}
+.text h4{
+    display: inline-block;
+    font-size: 16px;
+    color: #000;
+}
+.footer-logo{
+    border-top:1px solid red;
+    height: 157px;
+    padding: 45px 0;
+    border-bottom: 1px solid red;
+}
+.footer-copy{
+    height: 58px;
+    padding: 45px 0;
+}
